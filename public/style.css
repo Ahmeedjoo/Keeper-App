@@ -1,0 +1,48 @@
+header {
+  width: 100vw;
+  height: 55px;
+  background-color: #f5ba13;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgb(127, 127, 127);
+}
+
+header h1 {
+  margin-left: 25px;
+  color: #ffffff;
+  font-family: "McLaren", cursive;
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  height: 2.5rem;
+  bottom: 0;
+}
+
+footer p {
+  color: #676767;
+}
+
+.note {
+  padding: 15px;
+  float: left;
+  margin: 16px;
+  box-shadow: 0 3px 10px rgb(139, 139, 139);
+  border-radius: 7px;
+  text-align: start;
+  cursor: pointer;
+}
+
+.note h1 {
+  font-size: 1.2em;
+  margin-bottom: 6px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.note p {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
